@@ -30,17 +30,41 @@ body {
 
 }
 .card {
-    color: white;
+    width: 100%;
+    max-width: 512px;
+    margin: 24px auto;
+    padding: 32px 22px;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #5a7bff 0%);
+    color: #fff;
 }
+.titolo-card{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.05;
+    margin: 0 0 14px 0;
+    text-transform: uppercase;
+
+}
+.card img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 24px;
+    margin-top: 25px;
+
+}
+
+
 .button{
     width: 100%;
     max-width: 512px;
     flex-direction: column;
     gap: 12px;
     margin-top: 16px;
-    display: flex; 
-       
+    display: flex;        
 }
+
 
 
 
