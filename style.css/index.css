@@ -1,9 +1,46 @@
+/* Reset CSS */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/* Stile Generale */
 body {
+    width: 512px;
+    background: blue;
+    justify-content: center;
+    }
+
+.main{
+    padding: 25px;
+}
+.discord-banner img {
+    width: 512px;
+}
+.header.discord{
     width: 512px;
     
 }
+
+.section1 {
+    font-family: "fredoka";
+    font-weight: 900;
+    color: white;
+    text-align: center;
+
+}
+.card {
+    color: white;
+}
+.button{
+    width: 100%;
+    max-width: 512px;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+    display: flex; 
+       
+}
+
+
+
